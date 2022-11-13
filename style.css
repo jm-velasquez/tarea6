@@ -1,0 +1,16 @@
+
+
+.container-card {
+    display: grid;
+    background-color: aquamarine;
+    align-items: center;
+    grid-template-columns: repeat(5, 2fr)
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 200px;
+}
